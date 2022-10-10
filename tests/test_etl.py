@@ -1,8 +1,8 @@
 import pytest
 import sqlalchemy as sa
 
-from config import settings
 import src.process.etl as etl
+from config import settings
 
 
 @pytest.fixture
