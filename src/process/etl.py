@@ -63,7 +63,7 @@ def main(path: str, tables: tuple[str, ...]) -> dict:
     acc_engine = build_engine(path=path)
     raw_data = extract(tables=tables, engine=acc_engine)
     # print the shape of every table
-    {tbl: print(df.shape) for (tbl, df) in raw_data.items()}
+    # {tbl: print(df.shape) for (tbl, df) in raw_data.items()}
     return raw_data
 
 
